@@ -16,9 +16,8 @@ repositories {
 jar {
 	baseName = 'demo-jenkins-service'
 }
-springBoot {
-	executable = true
-}
+
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
